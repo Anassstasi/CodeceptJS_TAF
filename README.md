@@ -7,9 +7,9 @@ Test automation with WebdriverIO and CodeceptJS
 >Getting Started
 Let's setup the repo and install dependencies:
 
-```git clone https://gitlab.itechart-group.com/dqa5-internal/test-automation/anna-boriskina/jscript_framework.git
-cd jscript_framework
-npm install```
+```git clone https://gitlab.itechart-group.com/dqa5-internal/test-automation/anna-boriskina/jscript_framework.git```
+```cd jscript_framework```
+```npm install```
 
 >Selenium server needs to be running in the background:
 
