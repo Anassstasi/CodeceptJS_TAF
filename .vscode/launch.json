@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+  {
+            "type": "node",
+            "request": "launch",
+            "name": "Allure report", //node node_modules/.bin/allure serve ./tests/e2e/ads/output/allure
+            "args": [
+                "../../../node_modules/.bin/allure",
+                "serve",
+                "/Users/aliaksandr_pashynski/Documents/Player/webplex/packages/apps/webplex-app/tests/e2e/reports"
+            ],
+            "console": "integratedTerminal"
+  },
+   {
+    "type": "node",
+    "request": "launch",
+    "name": "codeceptjs debug",
+    "args": [
+         "run",
+         "--grep",
+         "(?=.*@an)"
+        ],
+    "program": "${workspaceFolder}/node_modules/codeceptjs/bin/codecept.js"
+  }
+    ]
+  }
+  
